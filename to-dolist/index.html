@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            background: url("./ma.webp");
+            background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 25px 0;
+            text-align: center;
+        }
+        #n{
+            position:absolute;
+            top:50px;
+            right:10px;
+            color:yellow;
+            
+        }
+        #m{
+            position:absolute;
+            top:50px;
+            right:100px;
+            color:yellow;
+            
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 90px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .content h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            line-height: 1.6;
+            padding-bottom:20px ;
+        }
+       
+        footer {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px 5px;
+            text-align: center;
+            margin: bottom;
+        }
+        footer .contact-info {
+            margin-bottom: 10px;
+        }
+        footer .contact-info p {
+            margin: 10px 0;
+        }
+        footer .social-media ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+        footer .social-media ul li {
+            margin: 0 10px;
+        }
+        footer .social-media ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        footer .social-media ul li a i {
+            font-size: 1.2em;
+        }
+      
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Todo List</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li ><a href="index1.php" id="m">SIGN IN</a></li>
+            <li ><a href="index1.php" id="n">SIGN UP</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="content">
+    <h2>Welcome to Your Todo List</h2>
+    <p>
+        This is your personal Todo list application. Here, you can keep track of all your tasks and stay organized.
+        Simply add your tasks, set priorities, and mark them as completed when you're done. Happy tasking!
+    </p>
+</div>
+
+<footer>
+    <div class="contact-info">
+        <h3>Contact Us</h3>
+        <p><i class="fa-solid fa-location-dot"></i> &nbsp;Todo App HQ, wolita sodo, Ethiopia</p>
+        <p><i class="fa-solid fa-phone"></i> &nbsp;+251928810696</p>
+        <p><i class="fa-solid fa-envelope"></i><a href="mailto:support@todoapp.et"> &nbsp;support@todoapp.et</a></p>
+    </div>
+    <div class="social-media">
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+    </div>
+    <p>Copyright ©2024 TodoApp. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

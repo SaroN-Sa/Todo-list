@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+
+/* Header Section */
+#header_file ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header_file {
+    background-color: black;
+    color: #fff;
+    font-weight: 200;
+    font-size: 1em;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.kiyuu {
+    width: 800px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.kiyuu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.kiyuu ul {
+    list-style: none;
+}
+
+.kiyuu ul li {
+    display: inline-block;
+    padding: 10px 0 8px;
+    height: 20px;
+    opacity: 0.8;
+}
+
+.kiyuu ul li:hover {
+    opacity: 1;
+}
+
+.kiyuu ul li.todo1,
+.kiyuu ul li.todo2,
+.kiyuu ul li.todo3,
+.kiyuu ul li.todo4,
+.kiyuu ul li.todo5,
+.kiyuu ul li.todo6,
+.kiyuu ul li.todo7 {
+    padding: 18px 0 10px;
+}
+
+/* Footer Section */
+.footer-wrapper {
+    background-color: #f5f5f7;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.footer-content {
+    color: #1d1d1f;
+    font-size: 0.85em;
+    width: 900px;
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.upper-text-container {
+    border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+    padding: 17px 0 20px;
+}
+
+.upper-text-container a {
+    color: #515154;
+}
+
+.footer-links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.footer-links-wrapper li a {
+    text-decoration: none;
+    color: #86868b;
+}
+
+.footer-links-wrapper li a:hover {
+    text-decoration: underline;
+    color: #1d1d1f;
+}
+
+.my_apple_text {
+    border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+    padding-bottom: 12px;
+}
+
+.my_apple_text a {
+    text-decoration: none;
+    color: rgb(90, 90, 250);
+}
+
+.my_apple_text a:hover {
+    text-decoration: underline;
+}
+
+.copyright-wrapper {
+    color: #86868b86;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links-terms a {
+    text-decoration: none;
+    color: #86868b;
+}
+
+.footer-country a {
+    text-decoration: none;
+    color: #86868b;
+}
+
+.footer-wrapper {
+    padding-top: 25px;
+    padding-bottom: 120px;
+}
+
+.model1 {
+    background-color: #fafafa;
+    text-align: center;
+    padding: 25px 0;
+    font-family: Verdana, sans-serif;
+    margin-bottom: 250px;
+}
+
+.linkpart ul li a {
+    color: #06c;
+    text-decoration: none;
+}
+
+.linkpart ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.linkpart ul li a:hover {
+    color: #000;
+}
+
+.iconc {
+    color: #06c;
+}
+
+.momo {
+    font-size: 0.85em;
+}
+
+.mama {
+    padding-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+
+.mumu {
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.first-photo1 {
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.TodoApp button {
+    margin: 20px;
+    width: 27%;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: rgb(7,113,219);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: 0.2s linear;
+}
+
+.TodoApp button:hover {
+    scale: 1.1;
+    font-size}
