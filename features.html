@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
+    <title>Features</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
     <style>
         * {
             padding: 0;
@@ -13,34 +15,15 @@
         }
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            background: url("./ma.webp");
+            background: url("./ma.webp") no-repeat center center fixed;
             background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow: hidden;
-
+            color: #333;
         }
         header {
             background-color: #007BFF;
             color: #fff;
-            padding: 25px 0;
+            padding: 20px 0;
             text-align: center;
-        }
-        #n{
-            position:absolute;
-            top:50px;
-            right:10px;
-            color:yellow;
-            
-        }
-        #m{
-            position:absolute;
-            top:50px;
-            right:100px;
-            color:yellow;
-            
         }
         header h1 {
             margin: 0;
@@ -82,13 +65,13 @@
             line-height: 1.6;
             padding-bottom:20px ;
         }
-       
+        
         footer {
             background-color: #007BFF;
             color: #fff;
             padding: 20px 5px;
             text-align: center;
-            margin: bottom;
+            position: relative;
         }
         footer .contact-info {
             margin-bottom: 10px;
@@ -112,37 +95,38 @@
         footer .social-media ul li a i {
             font-size: 1.2em;
         }
-      
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Todo List</h1>
+    <h1>Features</h1>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="features.html">Features</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li ><a href="index1.php" id="m">SIGN IN</a></li>
-            <li ><a href="index1.php" id="n">SIGN UP</a></li>
+            
         </ul>
     </nav>
 </header>
 
 <div class="content">
-    <h2>Welcome to Your Todo List</h2>
-    <p>
-        This is your personal Todo list application. Here, you can keep track of all your tasks and stay organized.
-        Simply add your tasks, set priorities, and mark them as completed when you're done. Happy tasking!
-    </p>
+    <h2>Features of Our Todo List App</h2>
+    <ul>
+        <li>Easy Task Management: Add, edit, and delete tasks with ease.</li>
+        <li>Priority Settings: Assign priorities to your tasks to stay organized.</li>
+        <li>Task Tracking: Track the completion status of your tasks.</li>
+        <li>Reminder Notifications: Set reminders to never miss a task.</li>
+        <li>Customizable Interface: Adjust settings to match your preferences.</li>
+    </ul>
 </div>
 
 <footer>
     <div class="contact-info">
         <h3>Contact Us</h3>
-        <p><i class="fa-solid fa-location-dot"></i> &nbsp;Todo App HQ, wolita sodo, Ethiopia</p>
+        <p><i class="fa-solid fa-location-dot"></i> &nbsp;Todo App HQ, Wolita Sodo, Ethiopia</p>
         <p><i class="fa-solid fa-phone"></i> &nbsp;+251928810696</p>
         <p><i class="fa-solid fa-envelope"></i><a href="mailto:support@todoapp.et"> &nbsp;support@todoapp.et</a></p>
     </div>
